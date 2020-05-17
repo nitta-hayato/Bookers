@@ -1,8 +1,8 @@
-<p id="notice">Book was successfully created.</p>
+<%= notice %>
 <h2>Title</h2>
 <p><%= @book.title %></p>
 <h2>Body</h2>
 <p><%= @book.body %></p>
 
-<%= link_to 'Edit', '/books/#{@book.id}/edit' %>
+<%= link_to 'Edit', "/books/#{@book.id}/edit" %>
 <%= link_to 'Back', '/books' %>
